@@ -1,0 +1,5950 @@
+[
+    {
+        "question": "Can you activate the microphone for the upcoming lecture?",
+        "function": {
+            "name": "control_media_devices",
+            "parameters": {
+                "device": "microphone",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "can",
+            "you",
+            "activate",
+            "the",
+            "microphone",
+            "for",
+            "the",
+            "upcoming",
+            "lecture",
+            "?"
+        ]
+    },
+    {
+        "question": "Please shut down the camera for this private session.",
+        "function": {
+            "name": "control_media_devices",
+            "parameters": {
+                "device": "camera",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "please",
+            "shut",
+            "down",
+            "the",
+            "camera",
+            "for",
+            "this",
+            "private",
+            "session",
+            "."
+        ]
+    },
+    {
+        "question": "I need the camera turned on for the video call.",
+        "function": {
+            "name": "control_media_devices",
+            "parameters": {
+                "device": "camera",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "i",
+            "need",
+            "the",
+            "camera",
+            "turned",
+            "on",
+            "for",
+            "the",
+            "video",
+            "call",
+            "."
+        ]
+    },
+    {
+        "question": "Mute the microphone to avoid background noise.",
+        "function": {
+            "name": "control_media_devices",
+            "parameters": {
+                "device": "microphone",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "mute",
+            "the",
+            "microphone",
+            "to",
+            "avoid",
+            "background",
+            "noise",
+            "."
+        ]
+    },
+    {
+        "question": "Ensure auto fullscreen is active when I start casting.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "auto_fullscreen",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "ensure",
+            "auto",
+            "full",
+            "##screen",
+            "is",
+            "active",
+            "when",
+            "i",
+            "start",
+            "casting",
+            "."
+        ]
+    },
+    {
+        "question": "Turn off the floating window; it's distracting.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "floating_window",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "turn",
+            "off",
+            "the",
+            "floating",
+            "window",
+            ";",
+            "it",
+            "'",
+            "s",
+            "distracting",
+            "."
+        ]
+    },
+    {
+        "question": "Make sure the device name is hidden from the main display.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "device_name_visibility",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "make",
+            "sure",
+            "the",
+            "device",
+            "name",
+            "is",
+            "hidden",
+            "from",
+            "the",
+            "main",
+            "display",
+            "."
+        ]
+    },
+    {
+        "question": "Enable floating windows for multi-tasking during the demo.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "floating_window",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "floating",
+            "windows",
+            "for",
+            "multi",
+            "-",
+            "task",
+            "##ing",
+            "during",
+            "the",
+            "demo",
+            "."
+        ]
+    },
+    {
+        "question": "Switch off automatic fullscreen mode.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "auto_fullscreen",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "switch",
+            "off",
+            "automatic",
+            "full",
+            "##screen",
+            "mode",
+            "."
+        ]
+    },
+    {
+        "question": "Show the name of this device on the screen.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "device_name_visibility",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "show",
+            "the",
+            "name",
+            "of",
+            "this",
+            "device",
+            "on",
+            "the",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "question": "Enable Miracast for our Windows laptop users.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "miracast",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "mira",
+            "##cast",
+            "for",
+            "our",
+            "windows",
+            "laptop",
+            "users",
+            "."
+        ]
+    },
+    {
+        "question": "I want to disable AirPlay to prevent unauthorized Apple connections.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "airplay",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "i",
+            "want",
+            "to",
+            "di",
+            "##sable",
+            "airplay",
+            "to",
+            "prevent",
+            "unauthorized",
+            "apple",
+            "connections",
+            "."
+        ]
+    },
+    {
+        "question": "Activate Google Cast for the team's Android tablets.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "google_cast",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "activate",
+            "google",
+            "cast",
+            "for",
+            "the",
+            "team",
+            "'",
+            "s",
+            "android",
+            "tablets",
+            "."
+        ]
+    },
+    {
+        "question": "Please turn off WiFi Direct to improve security.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "wifi_direct",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "please",
+            "turn",
+            "off",
+            "wi",
+            "##fi",
+            "direct",
+            "to",
+            "improve",
+            "security",
+            "."
+        ]
+    },
+    {
+        "question": "Start supporting wired projection for the boardroom HDMI.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "wired_projection",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "start",
+            "supporting",
+            "wired",
+            "projection",
+            "for",
+            "the",
+            "board",
+            "##room",
+            "hd",
+            "##mi",
+            "."
+        ]
+    },
+    {
+        "question": "Disable Miracast support for now.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "miracast",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "mira",
+            "##cast",
+            "support",
+            "for",
+            "now",
+            "."
+        ]
+    },
+    {
+        "question": "Turn on AirPlay so I can cast from my iPhone.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "airplay",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "turn",
+            "on",
+            "airplay",
+            "so",
+            "i",
+            "can",
+            "cast",
+            "from",
+            "my",
+            "iphone",
+            "."
+        ]
+    },
+    {
+        "question": "Switch off Google Cast protocol.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "google_cast",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "switch",
+            "off",
+            "google",
+            "cast",
+            "protocol",
+            "."
+        ]
+    },
+    {
+        "question": "Allow WiFi Direct connections on this display.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "wifi_direct",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "allow",
+            "wi",
+            "##fi",
+            "direct",
+            "connections",
+            "on",
+            "this",
+            "display",
+            "."
+        ]
+    },
+    {
+        "question": "Block all wired projection inputs.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "wired_projection",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "block",
+            "all",
+            "wired",
+            "projection",
+            "inputs",
+            "."
+        ]
+    },
+    {
+        "question": "Activate the screen sharing feature globally.",
+        "function": {
+            "name": "configure_screen_sharing",
+            "parameters": {
+                "enable": true
+            }
+        },
+        "tokens": [
+            "activate",
+            "the",
+            "screen",
+            "sharing",
+            "feature",
+            "globally",
+            "."
+        ]
+    },
+    {
+        "question": "Turn off screen sharing to stop the current broadcast.",
+        "function": {
+            "name": "configure_screen_sharing",
+            "parameters": {
+                "enable": false
+            }
+        },
+        "tokens": [
+            "turn",
+            "off",
+            "screen",
+            "sharing",
+            "to",
+            "stop",
+            "the",
+            "current",
+            "broadcast",
+            "."
+        ]
+    },
+    {
+        "question": "Let everyone join the session without restrictions.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "allow_all"
+            }
+        },
+        "tokens": [
+            "let",
+            "everyone",
+            "join",
+            "the",
+            "session",
+            "without",
+            "restrictions",
+            "."
+        ]
+    },
+    {
+        "question": "Prohibit all casting attempts immediately.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "cast",
+                "mode": "deny_all"
+            }
+        },
+        "tokens": [
+            "prohibit",
+            "all",
+            "casting",
+            "attempts",
+            "immediately",
+            "."
+        ]
+    },
+    {
+        "question": "We need an admin to approve anyone trying to join.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "require_approval"
+            }
+        },
+        "tokens": [
+            "we",
+            "need",
+            "an",
+            "ad",
+            "##min",
+            "to",
+            "approve",
+            "anyone",
+            "trying",
+            "to",
+            "join",
+            "."
+        ]
+    },
+    {
+        "question": "Set a password for the casting access.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "cast",
+                "mode": "require_password"
+            }
+        },
+        "tokens": [
+            "set",
+            "a",
+            "password",
+            "for",
+            "the",
+            "casting",
+            "access",
+            "."
+        ]
+    },
+    {
+        "question": "Don't allow anyone to join the session right now.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "deny_all"
+            }
+        },
+        "tokens": [
+            "don",
+            "'",
+            "t",
+            "allow",
+            "anyone",
+            "to",
+            "join",
+            "the",
+            "session",
+            "right",
+            "now",
+            "."
+        ]
+    },
+    {
+        "question": "Change join settings so that everyone is allowed.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "allow_all"
+            }
+        },
+        "tokens": [
+            "change",
+            "join",
+            "settings",
+            "so",
+            "that",
+            "everyone",
+            "is",
+            "allowed",
+            "."
+        ]
+    },
+    {
+        "question": "Allow users to cast without any approval or password.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "cast",
+                "mode": "allow_all"
+            }
+        },
+        "tokens": [
+            "allow",
+            "users",
+            "to",
+            "cast",
+            "without",
+            "any",
+            "approval",
+            "or",
+            "password",
+            "."
+        ]
+    },
+    {
+        "question": "Make sure joining requires a password from now on.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "require_password"
+            }
+        },
+        "tokens": [
+            "make",
+            "sure",
+            "joining",
+            "requires",
+            "a",
+            "password",
+            "from",
+            "now",
+            "on",
+            "."
+        ]
+    },
+    {
+        "question": "I want to require approval for any new casting request.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "cast",
+                "mode": "require_approval"
+            }
+        },
+        "tokens": [
+            "i",
+            "want",
+            "to",
+            "require",
+            "approval",
+            "for",
+            "any",
+            "new",
+            "casting",
+            "request",
+            "."
+        ]
+    },
+    {
+        "question": "Set casting mode to deny all for the guest network.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "cast",
+                "mode": "deny_all"
+            }
+        },
+        "tokens": [
+            "set",
+            "casting",
+            "mode",
+            "to",
+            "deny",
+            "all",
+            "for",
+            "the",
+            "guest",
+            "network",
+            "."
+        ]
+    },
+    {
+        "question": "Permit reverse control for the interactive display.",
+        "function": {
+            "name": "set_reverse_control_policy",
+            "parameters": {
+                "mode": "allow"
+            }
+        },
+        "tokens": [
+            "permit",
+            "reverse",
+            "control",
+            "for",
+            "the",
+            "interactive",
+            "display",
+            "."
+        ]
+    },
+    {
+        "question": "Require the host's approval for reverse control.",
+        "function": {
+            "name": "set_reverse_control_policy",
+            "parameters": {
+                "mode": "require_approval"
+            }
+        },
+        "tokens": [
+            "require",
+            "the",
+            "host",
+            "'",
+            "s",
+            "approval",
+            "for",
+            "reverse",
+            "control",
+            "."
+        ]
+    },
+    {
+        "question": "Totally block reverse control functionality.",
+        "function": {
+            "name": "set_reverse_control_policy",
+            "parameters": {
+                "mode": "deny"
+            }
+        },
+        "tokens": [
+            "totally",
+            "block",
+            "reverse",
+            "control",
+            "functionality",
+            "."
+        ]
+    },
+    {
+        "question": "Set the split screen capacity to 2 windows.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "split_screen",
+                "value": 2
+            }
+        },
+        "tokens": [
+            "set",
+            "the",
+            "split",
+            "screen",
+            "capacity",
+            "to",
+            "2",
+            "windows",
+            "."
+        ]
+    },
+    {
+        "question": "I want the split screen limit set to 9 for a massive wall display.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "split_screen",
+                "value": 9
+            }
+        },
+        "tokens": [
+            "i",
+            "want",
+            "the",
+            "split",
+            "screen",
+            "limit",
+            "set",
+            "to",
+            "9",
+            "for",
+            "a",
+            "massive",
+            "wall",
+            "display",
+            "."
+        ]
+    },
+    {
+        "question": "Adjust the refresh interval to 60 seconds.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "refresh_interval",
+                "value": 60
+            }
+        },
+        "tokens": [
+            "adjust",
+            "the",
+            "ref",
+            "##resh",
+            "interval",
+            "to",
+            "60",
+            "seconds",
+            "."
+        ]
+    },
+    {
+        "question": "Change the refresh rate of the code to 10 seconds.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "refresh_interval",
+                "value": 10
+            }
+        },
+        "tokens": [
+            "change",
+            "the",
+            "ref",
+            "##resh",
+            "rate",
+            "of",
+            "the",
+            "code",
+            "to",
+            "10",
+            "seconds",
+            "."
+        ]
+    },
+    {
+        "question": "Set split screen to just 1 for a single focused view.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "split_screen",
+                "value": 1
+            }
+        },
+        "tokens": [
+            "set",
+            "split",
+            "screen",
+            "to",
+            "just",
+            "1",
+            "for",
+            "a",
+            "single",
+            "focused",
+            "view",
+            "."
+        ]
+    },
+    {
+        "question": "Initialize a cast for mobile_001.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "start_cast",
+                "targets": "mobile_001"
+            }
+        },
+        "tokens": [
+            "initial",
+            "##ize",
+            "a",
+            "cast",
+            "for",
+            "mobile",
+            "_",
+            "001",
+            "."
+        ]
+    },
+    {
+        "question": "Kill the casting session for laptop_B.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "stop_cast",
+                "targets": "laptop_B"
+            }
+        },
+        "tokens": [
+            "kill",
+            "the",
+            "casting",
+            "session",
+            "for",
+            "laptop",
+            "_",
+            "b",
+            "."
+        ]
+    },
+    {
+        "question": "Remove device 'ipad_pro' from the session.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disconnect_device",
+                "targets": "ipad_pro"
+            }
+        },
+        "tokens": [
+            "remove",
+            "device",
+            "'",
+            "ipad",
+            "_",
+            "pro",
+            "'",
+            "from",
+            "the",
+            "session",
+            "."
+        ]
+    },
+    {
+        "question": "Kick everyone off the display right now.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disconnect_all",
+                "targets": "all"
+            }
+        },
+        "tokens": [
+            "kick",
+            "everyone",
+            "off",
+            "the",
+            "display",
+            "right",
+            "now",
+            "."
+        ]
+    },
+    {
+        "question": "Switch on the screen for the current presenter on device_7.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "enable_screen",
+                "targets": "device_7"
+            }
+        },
+        "tokens": [
+            "switch",
+            "on",
+            "the",
+            "screen",
+            "for",
+            "the",
+            "current",
+            "presenter",
+            "on",
+            "device",
+            "_",
+            "7",
+            "."
+        ]
+    },
+    {
+        "question": "Black out the screen for device_X.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disable_screen",
+                "targets": "device_X"
+            }
+        },
+        "tokens": [
+            "black",
+            "out",
+            "the",
+            "screen",
+            "for",
+            "device",
+            "_",
+            "x",
+            "."
+        ]
+    },
+    {
+        "question": "Give remote control access to user_42.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "enable_remote_control",
+                "targets": "user_42"
+            }
+        },
+        "tokens": [
+            "give",
+            "remote",
+            "control",
+            "access",
+            "to",
+            "user",
+            "_",
+            "42",
+            "."
+        ]
+    },
+    {
+        "question": "Revoke remote control from user_42.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disable_remote_control",
+                "targets": "user_42"
+            }
+        },
+        "tokens": [
+            "rev",
+            "##oke",
+            "remote",
+            "control",
+            "from",
+            "user",
+            "_",
+            "42",
+            "."
+        ]
+    },
+    {
+        "question": "Allow reverse control for device_88.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "enable_reverse_control",
+                "targets": "device_88"
+            }
+        },
+        "tokens": [
+            "allow",
+            "reverse",
+            "control",
+            "for",
+            "device",
+            "_",
+            "88",
+            "."
+        ]
+    },
+    {
+        "question": "Disable reverse control for device_88.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disable_reverse_control",
+                "targets": "device_88"
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "reverse",
+            "control",
+            "for",
+            "device",
+            "_",
+            "88",
+            "."
+        ]
+    },
+    {
+        "question": "Disconnect the target 'workstation_alpha'.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disconnect_device",
+                "targets": "workstation_alpha"
+            }
+        },
+        "tokens": [
+            "disco",
+            "##nne",
+            "##ct",
+            "the",
+            "target",
+            "'",
+            "works",
+            "##tation",
+            "_",
+            "alpha",
+            "'",
+            "."
+        ]
+    },
+    {
+        "question": "Let's start casting for all connected devices.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "start_cast",
+                "targets": "all"
+            }
+        },
+        "tokens": [
+            "let",
+            "'",
+            "s",
+            "start",
+            "casting",
+            "for",
+            "all",
+            "connected",
+            "devices",
+            "."
+        ]
+    },
+    {
+        "question": "Stop casting for every device.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "stop_cast",
+                "targets": "all"
+            }
+        },
+        "tokens": [
+            "stop",
+            "casting",
+            "for",
+            "every",
+            "device",
+            "."
+        ]
+    },
+    {
+        "question": "Turn the screen back on for device_9.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "enable_screen",
+                "targets": "device_9"
+            }
+        },
+        "tokens": [
+            "turn",
+            "the",
+            "screen",
+            "back",
+            "on",
+            "for",
+            "device",
+            "_",
+            "9",
+            "."
+        ]
+    },
+    {
+        "question": "Disable remote control for everyone.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disable_remote_control",
+                "targets": "all"
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "remote",
+            "control",
+            "for",
+            "everyone",
+            "."
+        ]
+    },
+    {
+        "question": "Rename this device to 'Innovation Hub'.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "device_name",
+                "value": "Innovation Hub"
+            }
+        },
+        "tokens": [
+            "ren",
+            "##ame",
+            "this",
+            "device",
+            "to",
+            "'",
+            "innovation",
+            "hub",
+            "'",
+            "."
+        ]
+    },
+    {
+        "question": "Set the resolution to 4K display mode.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "display_mode",
+                "value": "4k"
+            }
+        },
+        "tokens": [
+            "set",
+            "the",
+            "resolution",
+            "to",
+            "4",
+            "##k",
+            "display",
+            "mode",
+            "."
+        ]
+    },
+    {
+        "question": "The WiFi is bad; please optimize for weak networks.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "weak_network_optimization",
+                "value": true
+            }
+        },
+        "tokens": [
+            "the",
+            "wi",
+            "##fi",
+            "is",
+            "bad",
+            ";",
+            "please",
+            "opt",
+            "##imi",
+            "##ze",
+            "for",
+            "weak",
+            "networks",
+            "."
+        ]
+    },
+    {
+        "question": "Disable weak network optimization.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "weak_network_optimization",
+                "value": false
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "weak",
+            "network",
+            "optimization",
+            "."
+        ]
+    },
+    {
+        "question": "I want the simplified user interface enabled.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "simple_ui_mode",
+                "value": true
+            }
+        },
+        "tokens": [
+            "i",
+            "want",
+            "the",
+            "simplified",
+            "user",
+            "interface",
+            "enabled",
+            "."
+        ]
+    },
+    {
+        "question": "Turn off the simple UI; I want the advanced version.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "simple_ui_mode",
+                "value": false
+            }
+        },
+        "tokens": [
+            "turn",
+            "off",
+            "the",
+            "simple",
+            "ui",
+            ";",
+            "i",
+            "want",
+            "the",
+            "advanced",
+            "version",
+            "."
+        ]
+    },
+    {
+        "question": "Switch display mode to 720p to save bandwidth.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "display_mode",
+                "value": "720p"
+            }
+        },
+        "tokens": [
+            "switch",
+            "display",
+            "mode",
+            "to",
+            "720",
+            "##p",
+            "to",
+            "save",
+            "bandwidth",
+            "."
+        ]
+    },
+    {
+        "question": "Update the device name to 'Reception TV'.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "device_name",
+                "value": "Reception TV"
+            }
+        },
+        "tokens": [
+            "update",
+            "the",
+            "device",
+            "name",
+            "to",
+            "'",
+            "reception",
+            "tv",
+            "'",
+            "."
+        ]
+    },
+    {
+        "question": "Which casting devices are currently available?",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "list_devices"
+            }
+        },
+        "tokens": [
+            "which",
+            "casting",
+            "devices",
+            "are",
+            "currently",
+            "available",
+            "?"
+        ]
+    },
+    {
+        "question": "Show me a list of all connected clients.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "list_clients"
+            }
+        },
+        "tokens": [
+            "show",
+            "me",
+            "a",
+            "list",
+            "of",
+            "all",
+            "connected",
+            "clients",
+            "."
+        ]
+    },
+    {
+        "question": "Get a new casting code.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "refresh_code"
+            }
+        },
+        "tokens": [
+            "get",
+            "a",
+            "new",
+            "casting",
+            "code",
+            "."
+        ]
+    },
+    {
+        "question": "Is there a firmware update?",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "check_update"
+            }
+        },
+        "tokens": [
+            "is",
+            "there",
+            "a",
+            "firm",
+            "##ware",
+            "update",
+            "?"
+        ]
+    },
+    {
+        "question": "Show the debugging logs.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "show_log"
+            }
+        },
+        "tokens": [
+            "show",
+            "the",
+            "de",
+            "##bu",
+            "##gging",
+            "logs",
+            "."
+        ]
+    },
+    {
+        "question": "Please hide the logs.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "hide_log"
+            }
+        },
+        "tokens": [
+            "please",
+            "hide",
+            "the",
+            "logs",
+            "."
+        ]
+    },
+    {
+        "question": "Open up the admin management panel.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "show_management"
+            }
+        },
+        "tokens": [
+            "open",
+            "up",
+            "the",
+            "ad",
+            "##min",
+            "management",
+            "panel",
+            "."
+        ]
+    },
+    {
+        "question": "Exit the management interface.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "hide_management"
+            }
+        },
+        "tokens": [
+            "exit",
+            "the",
+            "management",
+            "interface",
+            "."
+        ]
+    },
+    {
+        "question": "Open the help guide.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "show_guide"
+            }
+        },
+        "tokens": [
+            "open",
+            "the",
+            "help",
+            "guide",
+            "."
+        ]
+    },
+    {
+        "question": "Hide the help instructions.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "hide_guide"
+            }
+        },
+        "tokens": [
+            "hide",
+            "the",
+            "help",
+            "instructions",
+            "."
+        ]
+    },
+    {
+        "question": "Show me who is currently connected.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "list_clients"
+            }
+        },
+        "tokens": [
+            "show",
+            "me",
+            "who",
+            "is",
+            "currently",
+            "connected",
+            "."
+        ]
+    },
+    {
+        "question": "List all devices on the network.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "list_devices"
+            }
+        },
+        "tokens": [
+            "list",
+            "all",
+            "devices",
+            "on",
+            "the",
+            "network",
+            "."
+        ]
+    },
+    {
+        "question": "Check for system improvements.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "check_update"
+            }
+        },
+        "tokens": [
+            "check",
+            "for",
+            "system",
+            "improvements",
+            "."
+        ]
+    },
+    {
+        "question": "Refresh the screen pairing pin.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "refresh_code"
+            }
+        },
+        "tokens": [
+            "ref",
+            "##resh",
+            "the",
+            "screen",
+            "pairing",
+            "pin",
+            "."
+        ]
+    },
+    {
+        "question": "Enable the microphone.",
+        "function": {
+            "name": "control_media_devices",
+            "parameters": {
+                "device": "microphone",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "the",
+            "microphone",
+            "."
+        ]
+    },
+    {
+        "question": "Disable the camera.",
+        "function": {
+            "name": "control_media_devices",
+            "parameters": {
+                "device": "camera",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "the",
+            "camera",
+            "."
+        ]
+    },
+    {
+        "question": "Activate automatic full-screen.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "auto_fullscreen",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "activate",
+            "automatic",
+            "full",
+            "-",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "question": "Hide floating windows.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "floating_window",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "hide",
+            "floating",
+            "windows",
+            "."
+        ]
+    },
+    {
+        "question": "Show the name of the device on screen.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "device_name_visibility",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "show",
+            "the",
+            "name",
+            "of",
+            "the",
+            "device",
+            "on",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "question": "Enable Google Cast support.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "google_cast",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "google",
+            "cast",
+            "support",
+            "."
+        ]
+    },
+    {
+        "question": "Turn off AirPlay.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "airplay",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "turn",
+            "off",
+            "airplay",
+            "."
+        ]
+    },
+    {
+        "question": "Enable the Miracast protocol.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "miracast",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "the",
+            "mira",
+            "##cast",
+            "protocol",
+            "."
+        ]
+    },
+    {
+        "question": "Disable WiFi Direct.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "wifi_direct",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "wi",
+            "##fi",
+            "direct",
+            "."
+        ]
+    },
+    {
+        "question": "Enable wired projection.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "wired_projection",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "wired",
+            "projection",
+            "."
+        ]
+    },
+    {
+        "question": "Disable wired projection.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "wired_projection",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "wired",
+            "projection",
+            "."
+        ]
+    },
+    {
+        "question": "Start screen sharing.",
+        "function": {
+            "name": "configure_screen_sharing",
+            "parameters": {
+                "enable": true
+            }
+        },
+        "tokens": [
+            "start",
+            "screen",
+            "sharing",
+            "."
+        ]
+    },
+    {
+        "question": "Stop screen sharing.",
+        "function": {
+            "name": "configure_screen_sharing",
+            "parameters": {
+                "enable": false
+            }
+        },
+        "tokens": [
+            "stop",
+            "screen",
+            "sharing",
+            "."
+        ]
+    },
+    {
+        "question": "Set join policy to allow everyone.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "allow_all"
+            }
+        },
+        "tokens": [
+            "set",
+            "join",
+            "policy",
+            "to",
+            "allow",
+            "everyone",
+            "."
+        ]
+    },
+    {
+        "question": "Block all new participants from joining.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "deny_all"
+            }
+        },
+        "tokens": [
+            "block",
+            "all",
+            "new",
+            "participants",
+            "from",
+            "joining",
+            "."
+        ]
+    },
+    {
+        "question": "Require approval to join the session.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "require_approval"
+            }
+        },
+        "tokens": [
+            "require",
+            "approval",
+            "to",
+            "join",
+            "the",
+            "session",
+            "."
+        ]
+    },
+    {
+        "question": "Set casting policy to require password.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "cast",
+                "mode": "require_password"
+            }
+        },
+        "tokens": [
+            "set",
+            "casting",
+            "policy",
+            "to",
+            "require",
+            "password",
+            "."
+        ]
+    },
+    {
+        "question": "Deny all casting requests.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "cast",
+                "mode": "deny_all"
+            }
+        },
+        "tokens": [
+            "deny",
+            "all",
+            "casting",
+            "requests",
+            "."
+        ]
+    },
+    {
+        "question": "Set join policy to require password.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "require_password"
+            }
+        },
+        "tokens": [
+            "set",
+            "join",
+            "policy",
+            "to",
+            "require",
+            "password",
+            "."
+        ]
+    },
+    {
+        "question": "Allow reverse control.",
+        "function": {
+            "name": "set_reverse_control_policy",
+            "parameters": {
+                "mode": "allow"
+            }
+        },
+        "tokens": [
+            "allow",
+            "reverse",
+            "control",
+            "."
+        ]
+    },
+    {
+        "question": "Require approval for reverse control.",
+        "function": {
+            "name": "set_reverse_control_policy",
+            "parameters": {
+                "mode": "require_approval"
+            }
+        },
+        "tokens": [
+            "require",
+            "approval",
+            "for",
+            "reverse",
+            "control",
+            "."
+        ]
+    },
+    {
+        "question": "Deny reverse control requests.",
+        "function": {
+            "name": "set_reverse_control_policy",
+            "parameters": {
+                "mode": "deny"
+            }
+        },
+        "tokens": [
+            "deny",
+            "reverse",
+            "control",
+            "requests",
+            "."
+        ]
+    },
+    {
+        "question": "Set split screen count to 6.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "split_screen",
+                "value": 6
+            }
+        },
+        "tokens": [
+            "set",
+            "split",
+            "screen",
+            "count",
+            "to",
+            "6",
+            "."
+        ]
+    },
+    {
+        "question": "Set split screen count to 4.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "split_screen",
+                "value": 4
+            }
+        },
+        "tokens": [
+            "set",
+            "split",
+            "screen",
+            "count",
+            "to",
+            "4",
+            "."
+        ]
+    },
+    {
+        "question": "Set the refresh interval to 15 seconds.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "refresh_interval",
+                "value": 15
+            }
+        },
+        "tokens": [
+            "set",
+            "the",
+            "ref",
+            "##resh",
+            "interval",
+            "to",
+            "15",
+            "seconds",
+            "."
+        ]
+    },
+    {
+        "question": "Set the refresh interval to 45 seconds.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "refresh_interval",
+                "value": 45
+            }
+        },
+        "tokens": [
+            "set",
+            "the",
+            "ref",
+            "##resh",
+            "interval",
+            "to",
+            "45",
+            "seconds",
+            "."
+        ]
+    },
+    {
+        "question": "Start casting to all devices.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "start_cast",
+                "targets": "all"
+            }
+        },
+        "tokens": [
+            "start",
+            "casting",
+            "to",
+            "all",
+            "devices",
+            "."
+        ]
+    },
+    {
+        "question": "Stop casting to all devices.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "stop_cast",
+                "targets": "all"
+            }
+        },
+        "tokens": [
+            "stop",
+            "casting",
+            "to",
+            "all",
+            "devices",
+            "."
+        ]
+    },
+    {
+        "question": "Disconnect all devices.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disconnect_all",
+                "targets": "all"
+            }
+        },
+        "tokens": [
+            "disco",
+            "##nne",
+            "##ct",
+            "all",
+            "devices",
+            "."
+        ]
+    },
+    {
+        "question": "Enable screen on device_101.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "enable_screen",
+                "targets": "device_101"
+            }
+        },
+        "tokens": [
+            "enable",
+            "screen",
+            "on",
+            "device",
+            "_",
+            "101",
+            "."
+        ]
+    },
+    {
+        "question": "Disable screen on device_101.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disable_screen",
+                "targets": "device_101"
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "screen",
+            "on",
+            "device",
+            "_",
+            "101",
+            "."
+        ]
+    },
+    {
+        "question": "Enable remote control for device_102.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "enable_remote_control",
+                "targets": "device_102"
+            }
+        },
+        "tokens": [
+            "enable",
+            "remote",
+            "control",
+            "for",
+            "device",
+            "_",
+            "102",
+            "."
+        ]
+    },
+    {
+        "question": "Disable remote control for device_102.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disable_remote_control",
+                "targets": "device_102"
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "remote",
+            "control",
+            "for",
+            "device",
+            "_",
+            "102",
+            "."
+        ]
+    },
+    {
+        "question": "Enable reverse control for device_103.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "enable_reverse_control",
+                "targets": "device_103"
+            }
+        },
+        "tokens": [
+            "enable",
+            "reverse",
+            "control",
+            "for",
+            "device",
+            "_",
+            "103",
+            "."
+        ]
+    },
+    {
+        "question": "Disable reverse control for device_103.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disable_reverse_control",
+                "targets": "device_103"
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "reverse",
+            "control",
+            "for",
+            "device",
+            "_",
+            "103",
+            "."
+        ]
+    },
+    {
+        "question": "Disconnect device_007.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disconnect_device",
+                "targets": "device_007"
+            }
+        },
+        "tokens": [
+            "disco",
+            "##nne",
+            "##ct",
+            "device",
+            "_",
+            "00",
+            "##7",
+            "."
+        ]
+    },
+    {
+        "question": "Stop casting on device_007.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "stop_cast",
+                "targets": "device_007"
+            }
+        },
+        "tokens": [
+            "stop",
+            "casting",
+            "on",
+            "device",
+            "_",
+            "00",
+            "##7",
+            "."
+        ]
+    },
+    {
+        "question": "Start casting on device_008.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "start_cast",
+                "targets": "device_008"
+            }
+        },
+        "tokens": [
+            "start",
+            "casting",
+            "on",
+            "device",
+            "_",
+            "00",
+            "##8",
+            "."
+        ]
+    },
+    {
+        "question": "Set device name to 'Training Lab'.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "device_name",
+                "value": "Training Lab"
+            }
+        },
+        "tokens": [
+            "set",
+            "device",
+            "name",
+            "to",
+            "'",
+            "training",
+            "lab",
+            "'",
+            "."
+        ]
+    },
+    {
+        "question": "Change display mode to 'standard'.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "display_mode",
+                "value": "standard"
+            }
+        },
+        "tokens": [
+            "change",
+            "display",
+            "mode",
+            "to",
+            "'",
+            "standard",
+            "'",
+            "."
+        ]
+    },
+    {
+        "question": "Enable weak network optimization.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "weak_network_optimization",
+                "value": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "weak",
+            "network",
+            "optimization",
+            "."
+        ]
+    },
+    {
+        "question": "Enable simple UI.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "simple_ui_mode",
+                "value": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "simple",
+            "ui",
+            "."
+        ]
+    },
+    {
+        "question": "Disable simple UI.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "simple_ui_mode",
+                "value": false
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "simple",
+            "ui",
+            "."
+        ]
+    },
+    {
+        "question": "Set display mode to 'vivid'.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "display_mode",
+                "value": "vivid"
+            }
+        },
+        "tokens": [
+            "set",
+            "display",
+            "mode",
+            "to",
+            "'",
+            "vivid",
+            "'",
+            "."
+        ]
+    },
+    {
+        "question": "Rename the device to 'Lobby Monitor'.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "device_name",
+                "value": "Lobby Monitor"
+            }
+        },
+        "tokens": [
+            "ren",
+            "##ame",
+            "the",
+            "device",
+            "to",
+            "'",
+            "lobby",
+            "monitor",
+            "'",
+            "."
+        ]
+    },
+    {
+        "question": "List all devices.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "list_devices"
+            }
+        },
+        "tokens": [
+            "list",
+            "all",
+            "devices",
+            "."
+        ]
+    },
+    {
+        "question": "List all connected clients.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "list_clients"
+            }
+        },
+        "tokens": [
+            "list",
+            "all",
+            "connected",
+            "clients",
+            "."
+        ]
+    },
+    {
+        "question": "Refresh the connection code.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "refresh_code"
+            }
+        },
+        "tokens": [
+            "ref",
+            "##resh",
+            "the",
+            "connection",
+            "code",
+            "."
+        ]
+    },
+    {
+        "question": "Check for updates.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "check_update"
+            }
+        },
+        "tokens": [
+            "check",
+            "for",
+            "updates",
+            "."
+        ]
+    },
+    {
+        "question": "Show system logs.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "show_log"
+            }
+        },
+        "tokens": [
+            "show",
+            "system",
+            "logs",
+            "."
+        ]
+    },
+    {
+        "question": "Hide system logs.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "hide_log"
+            }
+        },
+        "tokens": [
+            "hide",
+            "system",
+            "logs",
+            "."
+        ]
+    },
+    {
+        "question": "Open management window.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "show_management"
+            }
+        },
+        "tokens": [
+            "open",
+            "management",
+            "window",
+            "."
+        ]
+    },
+    {
+        "question": "Close management window.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "hide_management"
+            }
+        },
+        "tokens": [
+            "close",
+            "management",
+            "window",
+            "."
+        ]
+    },
+    {
+        "question": "Open the guide.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "show_guide"
+            }
+        },
+        "tokens": [
+            "open",
+            "the",
+            "guide",
+            "."
+        ]
+    },
+    {
+        "question": "Close the guide.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "hide_guide"
+            }
+        },
+        "tokens": [
+            "close",
+            "the",
+            "guide",
+            "."
+        ]
+    },
+    {
+        "question": "Turn on microphone hardware.",
+        "function": {
+            "name": "control_media_devices",
+            "parameters": {
+                "device": "microphone",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "turn",
+            "on",
+            "microphone",
+            "hardware",
+            "."
+        ]
+    },
+    {
+        "question": "Switch off camera hardware.",
+        "function": {
+            "name": "control_media_devices",
+            "parameters": {
+                "device": "camera",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "switch",
+            "off",
+            "camera",
+            "hardware",
+            "."
+        ]
+    },
+    {
+        "question": "Enable auto fullscreen behavior.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "auto_fullscreen",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "auto",
+            "full",
+            "##screen",
+            "behavior",
+            "."
+        ]
+    },
+    {
+        "question": "Turn off device name visibility.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "device_name_visibility",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "turn",
+            "off",
+            "device",
+            "name",
+            "visibility",
+            "."
+        ]
+    },
+    {
+        "question": "Allow Google Cast connections.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "google_cast",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "allow",
+            "google",
+            "cast",
+            "connections",
+            "."
+        ]
+    },
+    {
+        "question": "Block AirPlay connections.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "airplay",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "block",
+            "airplay",
+            "connections",
+            "."
+        ]
+    },
+    {
+        "question": "Activate Miracast.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "miracast",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "activate",
+            "mira",
+            "##cast",
+            "."
+        ]
+    },
+    {
+        "question": "Deactivate WiFi Direct.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "wifi_direct",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "dea",
+            "##ct",
+            "##ivate",
+            "wi",
+            "##fi",
+            "direct",
+            "."
+        ]
+    },
+    {
+        "question": "Enable wired projection support.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "wired_projection",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "wired",
+            "projection",
+            "support",
+            "."
+        ]
+    },
+    {
+        "question": "Start screen sharing service.",
+        "function": {
+            "name": "configure_screen_sharing",
+            "parameters": {
+                "enable": true
+            }
+        },
+        "tokens": [
+            "start",
+            "screen",
+            "sharing",
+            "service",
+            "."
+        ]
+    },
+    {
+        "question": "Stop screen sharing service.",
+        "function": {
+            "name": "configure_screen_sharing",
+            "parameters": {
+                "enable": false
+            }
+        },
+        "tokens": [
+            "stop",
+            "screen",
+            "sharing",
+            "service",
+            "."
+        ]
+    },
+    {
+        "question": "Allow all to join.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "allow_all"
+            }
+        },
+        "tokens": [
+            "allow",
+            "all",
+            "to",
+            "join",
+            "."
+        ]
+    },
+    {
+        "question": "Deny all to join.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "deny_all"
+            }
+        },
+        "tokens": [
+            "deny",
+            "all",
+            "to",
+            "join",
+            "."
+        ]
+    },
+    {
+        "question": "Approval required to join.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "require_approval"
+            }
+        },
+        "tokens": [
+            "approval",
+            "required",
+            "to",
+            "join",
+            "."
+        ]
+    },
+    {
+        "question": "Password required to cast.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "cast",
+                "mode": "require_password"
+            }
+        },
+        "tokens": [
+            "password",
+            "required",
+            "to",
+            "cast",
+            "."
+        ]
+    },
+    {
+        "question": "Allow reverse control mode.",
+        "function": {
+            "name": "set_reverse_control_policy",
+            "parameters": {
+                "mode": "allow"
+            }
+        },
+        "tokens": [
+            "allow",
+            "reverse",
+            "control",
+            "mode",
+            "."
+        ]
+    },
+    {
+        "question": "Deny reverse control mode.",
+        "function": {
+            "name": "set_reverse_control_policy",
+            "parameters": {
+                "mode": "deny"
+            }
+        },
+        "tokens": [
+            "deny",
+            "reverse",
+            "control",
+            "mode",
+            "."
+        ]
+    },
+    {
+        "question": "Set split screens to 3.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "split_screen",
+                "value": 3
+            }
+        },
+        "tokens": [
+            "set",
+            "split",
+            "screens",
+            "to",
+            "3",
+            "."
+        ]
+    },
+    {
+        "question": "Set split screens to 5.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "split_screen",
+                "value": 5
+            }
+        },
+        "tokens": [
+            "set",
+            "split",
+            "screens",
+            "to",
+            "5",
+            "."
+        ]
+    },
+    {
+        "question": "Update name to 'Conference B'.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "device_name",
+                "value": "Conference B"
+            }
+        },
+        "tokens": [
+            "update",
+            "name",
+            "to",
+            "'",
+            "conference",
+            "b",
+            "'",
+            "."
+        ]
+    },
+    {
+        "question": "Set refresh interval to 20.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "refresh_interval",
+                "value": 20
+            }
+        },
+        "tokens": [
+            "set",
+            "ref",
+            "##resh",
+            "interval",
+            "to",
+            "20",
+            "."
+        ]
+    },
+    {
+        "question": "Please turn on the microphone for the upcoming meeting.",
+        "function": {
+            "name": "control_media_devices",
+            "parameters": {
+                "device": "microphone",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "please",
+            "turn",
+            "on",
+            "the",
+            "microphone",
+            "for",
+            "the",
+            "upcoming",
+            "meeting",
+            "."
+        ]
+    },
+    {
+        "question": "Disable the camera to ensure privacy during the break.",
+        "function": {
+            "name": "control_media_devices",
+            "parameters": {
+                "device": "camera",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "the",
+            "camera",
+            "to",
+            "ensure",
+            "privacy",
+            "during",
+            "the",
+            "break",
+            "."
+        ]
+    },
+    {
+        "question": "Enable the camera so remote participants can see the speaker.",
+        "function": {
+            "name": "control_media_devices",
+            "parameters": {
+                "device": "camera",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "the",
+            "camera",
+            "so",
+            "remote",
+            "participants",
+            "can",
+            "see",
+            "the",
+            "speaker",
+            "."
+        ]
+    },
+    {
+        "question": "Turn off the microphone to avoid background noise.",
+        "function": {
+            "name": "control_media_devices",
+            "parameters": {
+                "device": "microphone",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "turn",
+            "off",
+            "the",
+            "microphone",
+            "to",
+            "avoid",
+            "background",
+            "noise",
+            "."
+        ]
+    },
+    {
+        "question": "Activate the microphone for the presenter.",
+        "function": {
+            "name": "control_media_devices",
+            "parameters": {
+                "device": "microphone",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "activate",
+            "the",
+            "microphone",
+            "for",
+            "the",
+            "presenter",
+            "."
+        ]
+    },
+    {
+        "question": "Deactivate the camera when not in use.",
+        "function": {
+            "name": "control_media_devices",
+            "parameters": {
+                "device": "camera",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "dea",
+            "##ct",
+            "##ivate",
+            "the",
+            "camera",
+            "when",
+            "not",
+            "in",
+            "use",
+            "."
+        ]
+    },
+    {
+        "question": "Switch on the camera for video conferencing.",
+        "function": {
+            "name": "control_media_devices",
+            "parameters": {
+                "device": "camera",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "switch",
+            "on",
+            "the",
+            "camera",
+            "for",
+            "video",
+            "con",
+            "##fer",
+            "##en",
+            "##cing",
+            "."
+        ]
+    },
+    {
+        "question": "Mute the microphone to prevent echo.",
+        "function": {
+            "name": "control_media_devices",
+            "parameters": {
+                "device": "microphone",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "mute",
+            "the",
+            "microphone",
+            "to",
+            "prevent",
+            "echo",
+            "."
+        ]
+    },
+    {
+        "question": "Enable auto fullscreen when a new cast starts.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "auto_fullscreen",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "auto",
+            "full",
+            "##screen",
+            "when",
+            "a",
+            "new",
+            "cast",
+            "starts",
+            "."
+        ]
+    },
+    {
+        "question": "Turn off auto fullscreen to keep the current layout.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "auto_fullscreen",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "turn",
+            "off",
+            "auto",
+            "full",
+            "##screen",
+            "to",
+            "keep",
+            "the",
+            "current",
+            "layout",
+            "."
+        ]
+    },
+    {
+        "question": "Activate floating window mode for multitasking.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "floating_window",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "activate",
+            "floating",
+            "window",
+            "mode",
+            "for",
+            "multi",
+            "##tas",
+            "##king",
+            "."
+        ]
+    },
+    {
+        "question": "Disable floating window to have a single fullscreen view.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "floating_window",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "floating",
+            "window",
+            "to",
+            "have",
+            "a",
+            "single",
+            "full",
+            "##screen",
+            "view",
+            "."
+        ]
+    },
+    {
+        "question": "Show the device name on screen for identification.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "device_name_visibility",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "show",
+            "the",
+            "device",
+            "name",
+            "on",
+            "screen",
+            "for",
+            "identification",
+            "."
+        ]
+    },
+    {
+        "question": "Hide the device name to avoid clutter.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "device_name_visibility",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "hide",
+            "the",
+            "device",
+            "name",
+            "to",
+            "avoid",
+            "cl",
+            "##utter",
+            "."
+        ]
+    },
+    {
+        "question": "Make the display automatically go fullscreen on cast.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "auto_fullscreen",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "make",
+            "the",
+            "display",
+            "automatically",
+            "go",
+            "full",
+            "##screen",
+            "on",
+            "cast",
+            "."
+        ]
+    },
+    {
+        "question": "Prevent the display from entering fullscreen automatically.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "auto_fullscreen",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "prevent",
+            "the",
+            "display",
+            "from",
+            "entering",
+            "full",
+            "##screen",
+            "automatically",
+            "."
+        ]
+    },
+    {
+        "question": "Allow windows to float over the main content.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "floating_window",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "allow",
+            "windows",
+            "to",
+            "float",
+            "over",
+            "the",
+            "main",
+            "content",
+            "."
+        ]
+    },
+    {
+        "question": "Turn off floating windows for a cleaner interface.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "floating_window",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "turn",
+            "off",
+            "floating",
+            "windows",
+            "for",
+            "a",
+            "cleaner",
+            "interface",
+            "."
+        ]
+    },
+    {
+        "question": "Display the device name on the screen at all times.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "device_name_visibility",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "display",
+            "the",
+            "device",
+            "name",
+            "on",
+            "the",
+            "screen",
+            "at",
+            "all",
+            "times",
+            "."
+        ]
+    },
+    {
+        "question": "Remove the device name from the display.",
+        "function": {
+            "name": "configure_display_behavior",
+            "parameters": {
+                "feature": "device_name_visibility",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "remove",
+            "the",
+            "device",
+            "name",
+            "from",
+            "the",
+            "display",
+            "."
+        ]
+    },
+    {
+        "question": "Enable Miracast for Windows laptop connectivity.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "miracast",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "mira",
+            "##cast",
+            "for",
+            "windows",
+            "laptop",
+            "connectivity",
+            "."
+        ]
+    },
+    {
+        "question": "Disable Miracast to prevent unauthorized connections.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "miracast",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "mira",
+            "##cast",
+            "to",
+            "prevent",
+            "unauthorized",
+            "connections",
+            "."
+        ]
+    },
+    {
+        "question": "Turn on AirPlay for Apple device users.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "airplay",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "turn",
+            "on",
+            "airplay",
+            "for",
+            "apple",
+            "device",
+            "users",
+            "."
+        ]
+    },
+    {
+        "question": "Turn off AirPlay to restrict iOS casting.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "airplay",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "turn",
+            "off",
+            "airplay",
+            "to",
+            "restrict",
+            "ios",
+            "casting",
+            "."
+        ]
+    },
+    {
+        "question": "Activate Google Cast for Android and Chrome users.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "google_cast",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "activate",
+            "google",
+            "cast",
+            "for",
+            "android",
+            "and",
+            "chrome",
+            "users",
+            "."
+        ]
+    },
+    {
+        "question": "Deactivate Google Cast to save bandwidth.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "google_cast",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "dea",
+            "##ct",
+            "##ivate",
+            "google",
+            "cast",
+            "to",
+            "save",
+            "bandwidth",
+            "."
+        ]
+    },
+    {
+        "question": "Enable WiFi Direct for direct peer-to-peer connections.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "wifi_direct",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "wi",
+            "##fi",
+            "direct",
+            "for",
+            "direct",
+            "peer",
+            "-",
+            "to",
+            "-",
+            "peer",
+            "connections",
+            "."
+        ]
+    },
+    {
+        "question": "Disable WiFi Direct to avoid direct device links.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "wifi_direct",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "wi",
+            "##fi",
+            "direct",
+            "to",
+            "avoid",
+            "direct",
+            "device",
+            "links",
+            "."
+        ]
+    },
+    {
+        "question": "Turn on wired projection for stable HDMI connections.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "wired_projection",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "turn",
+            "on",
+            "wired",
+            "projection",
+            "for",
+            "stable",
+            "hd",
+            "##mi",
+            "connections",
+            "."
+        ]
+    },
+    {
+        "question": "Turn off wired projection when not needed.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "wired_projection",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "turn",
+            "off",
+            "wired",
+            "projection",
+            "when",
+            "not",
+            "needed",
+            "."
+        ]
+    },
+    {
+        "question": "Allow Miracast connections from Windows laptops.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "miracast",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "allow",
+            "mira",
+            "##cast",
+            "connections",
+            "from",
+            "windows",
+            "laptop",
+            "##s",
+            "."
+        ]
+    },
+    {
+        "question": "Block Miracast to enforce other protocols.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "miracast",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "block",
+            "mira",
+            "##cast",
+            "to",
+            "enforce",
+            "other",
+            "protocols",
+            "."
+        ]
+    },
+    {
+        "question": "Enable AirPlay for seamless iPhone mirroring.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "airplay",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "airplay",
+            "for",
+            "seam",
+            "##less",
+            "iphone",
+            "mirror",
+            "##ing",
+            "."
+        ]
+    },
+    {
+        "question": "Disable AirPlay to prevent screen sharing from iPhones.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "airplay",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "airplay",
+            "to",
+            "prevent",
+            "screen",
+            "sharing",
+            "from",
+            "iphone",
+            "##s",
+            "."
+        ]
+    },
+    {
+        "question": "Activate Google Cast for Chromebook users.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "google_cast",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "activate",
+            "google",
+            "cast",
+            "for",
+            "chrome",
+            "##book",
+            "users",
+            "."
+        ]
+    },
+    {
+        "question": "Turn off Google Cast to reduce wireless traffic.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "google_cast",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "turn",
+            "off",
+            "google",
+            "cast",
+            "to",
+            "reduce",
+            "wireless",
+            "traffic",
+            "."
+        ]
+    },
+    {
+        "question": "Enable WiFi Direct for fast file transfers.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "wifi_direct",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "wi",
+            "##fi",
+            "direct",
+            "for",
+            "fast",
+            "file",
+            "transfers",
+            "."
+        ]
+    },
+    {
+        "question": "Disable WiFi Direct for security reasons.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "wifi_direct",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "wi",
+            "##fi",
+            "direct",
+            "for",
+            "security",
+            "reasons",
+            "."
+        ]
+    },
+    {
+        "question": "Turn on wired projection for guaranteed quality.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "wired_projection",
+                "enable": true
+            }
+        },
+        "tokens": [
+            "turn",
+            "on",
+            "wired",
+            "projection",
+            "for",
+            "guaranteed",
+            "quality",
+            "."
+        ]
+    },
+    {
+        "question": "Switch off wired projection to save power.",
+        "function": {
+            "name": "configure_casting_protocol",
+            "parameters": {
+                "protocol": "wired_projection",
+                "enable": false
+            }
+        },
+        "tokens": [
+            "switch",
+            "off",
+            "wired",
+            "projection",
+            "to",
+            "save",
+            "power",
+            "."
+        ]
+    },
+    {
+        "question": "Enable screen sharing for all participants.",
+        "function": {
+            "name": "configure_screen_sharing",
+            "parameters": {
+                "enable": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "screen",
+            "sharing",
+            "for",
+            "all",
+            "participants",
+            "."
+        ]
+    },
+    {
+        "question": "Disable screen sharing to prevent unwanted broadcasts.",
+        "function": {
+            "name": "configure_screen_sharing",
+            "parameters": {
+                "enable": false
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "screen",
+            "sharing",
+            "to",
+            "prevent",
+            "unwanted",
+            "broadcasts",
+            "."
+        ]
+    },
+    {
+        "question": "Allow screen sharing during the meeting.",
+        "function": {
+            "name": "configure_screen_sharing",
+            "parameters": {
+                "enable": true
+            }
+        },
+        "tokens": [
+            "allow",
+            "screen",
+            "sharing",
+            "during",
+            "the",
+            "meeting",
+            "."
+        ]
+    },
+    {
+        "question": "Turn off screen sharing after the presentation.",
+        "function": {
+            "name": "configure_screen_sharing",
+            "parameters": {
+                "enable": false
+            }
+        },
+        "tokens": [
+            "turn",
+            "off",
+            "screen",
+            "sharing",
+            "after",
+            "the",
+            "presentation",
+            "."
+        ]
+    },
+    {
+        "question": "Let anyone join the session without restrictions.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "allow_all"
+            }
+        },
+        "tokens": [
+            "let",
+            "anyone",
+            "join",
+            "the",
+            "session",
+            "without",
+            "restrictions",
+            "."
+        ]
+    },
+    {
+        "question": "Allow all users to cast to the display.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "cast",
+                "mode": "allow_all"
+            }
+        },
+        "tokens": [
+            "allow",
+            "all",
+            "users",
+            "to",
+            "cast",
+            "to",
+            "the",
+            "display",
+            "."
+        ]
+    },
+    {
+        "question": "Block everyone from joining the session.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "deny_all"
+            }
+        },
+        "tokens": [
+            "block",
+            "everyone",
+            "from",
+            "joining",
+            "the",
+            "session",
+            "."
+        ]
+    },
+    {
+        "question": "Prevent any casting attempts to the screen.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "cast",
+                "mode": "deny_all"
+            }
+        },
+        "tokens": [
+            "prevent",
+            "any",
+            "casting",
+            "attempts",
+            "to",
+            "the",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "question": "Require host approval for users to join.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "require_approval"
+            }
+        },
+        "tokens": [
+            "require",
+            "host",
+            "approval",
+            "for",
+            "users",
+            "to",
+            "join",
+            "."
+        ]
+    },
+    {
+        "question": "Make casters request approval before displaying.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "cast",
+                "mode": "require_approval"
+            }
+        },
+        "tokens": [
+            "make",
+            "caste",
+            "##rs",
+            "request",
+            "approval",
+            "before",
+            "displaying",
+            "."
+        ]
+    },
+    {
+        "question": "Set a password for joining the session.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "require_password"
+            }
+        },
+        "tokens": [
+            "set",
+            "a",
+            "password",
+            "for",
+            "joining",
+            "the",
+            "session",
+            "."
+        ]
+    },
+    {
+        "question": "Require a password to start casting.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "cast",
+                "mode": "require_password"
+            }
+        },
+        "tokens": [
+            "require",
+            "a",
+            "password",
+            "to",
+            "start",
+            "casting",
+            "."
+        ]
+    },
+    {
+        "question": "Open access for everyone to join the meeting.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "allow_all"
+            }
+        },
+        "tokens": [
+            "open",
+            "access",
+            "for",
+            "everyone",
+            "to",
+            "join",
+            "the",
+            "meeting",
+            "."
+        ]
+    },
+    {
+        "question": "Permit all devices to cast without restriction.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "cast",
+                "mode": "allow_all"
+            }
+        },
+        "tokens": [
+            "permit",
+            "all",
+            "devices",
+            "to",
+            "cast",
+            "without",
+            "restriction",
+            "."
+        ]
+    },
+    {
+        "question": "Deny all join requests during off-hours.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "deny_all"
+            }
+        },
+        "tokens": [
+            "deny",
+            "all",
+            "join",
+            "requests",
+            "during",
+            "off",
+            "-",
+            "hours",
+            "."
+        ]
+    },
+    {
+        "question": "Forbid any casting until further notice.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "cast",
+                "mode": "deny_all"
+            }
+        },
+        "tokens": [
+            "forbid",
+            "any",
+            "casting",
+            "until",
+            "further",
+            "notice",
+            "."
+        ]
+    },
+    {
+        "question": "Ask for permission before letting someone join.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "require_approval"
+            }
+        },
+        "tokens": [
+            "ask",
+            "for",
+            "permission",
+            "before",
+            "letting",
+            "someone",
+            "join",
+            "."
+        ]
+    },
+    {
+        "question": "Have casters get approval from the moderator.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "cast",
+                "mode": "require_approval"
+            }
+        },
+        "tokens": [
+            "have",
+            "caste",
+            "##rs",
+            "get",
+            "approval",
+            "from",
+            "the",
+            "moderator",
+            "."
+        ]
+    },
+    {
+        "question": "Protect the session with a password for joining.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "join",
+                "mode": "require_password"
+            }
+        },
+        "tokens": [
+            "protect",
+            "the",
+            "session",
+            "with",
+            "a",
+            "password",
+            "for",
+            "joining",
+            "."
+        ]
+    },
+    {
+        "question": "Secure casting with a password requirement.",
+        "function": {
+            "name": "set_access_policy",
+            "parameters": {
+                "policy_type": "cast",
+                "mode": "require_password"
+            }
+        },
+        "tokens": [
+            "secure",
+            "casting",
+            "with",
+            "a",
+            "password",
+            "requirement",
+            "."
+        ]
+    },
+    {
+        "question": "Allow reverse control for interactive sessions.",
+        "function": {
+            "name": "set_reverse_control_policy",
+            "parameters": {
+                "mode": "allow"
+            }
+        },
+        "tokens": [
+            "allow",
+            "reverse",
+            "control",
+            "for",
+            "interactive",
+            "sessions",
+            "."
+        ]
+    },
+    {
+        "question": "Require approval before enabling reverse control.",
+        "function": {
+            "name": "set_reverse_control_policy",
+            "parameters": {
+                "mode": "require_approval"
+            }
+        },
+        "tokens": [
+            "require",
+            "approval",
+            "before",
+            "enabling",
+            "reverse",
+            "control",
+            "."
+        ]
+    },
+    {
+        "question": "Deny reverse control to maintain presenter control.",
+        "function": {
+            "name": "set_reverse_control_policy",
+            "parameters": {
+                "mode": "deny"
+            }
+        },
+        "tokens": [
+            "deny",
+            "reverse",
+            "control",
+            "to",
+            "maintain",
+            "presenter",
+            "control",
+            "."
+        ]
+    },
+    {
+        "question": "Enable reverse control for collaborative editing.",
+        "function": {
+            "name": "set_reverse_control_policy",
+            "parameters": {
+                "mode": "allow"
+            }
+        },
+        "tokens": [
+            "enable",
+            "reverse",
+            "control",
+            "for",
+            "collaborative",
+            "editing",
+            "."
+        ]
+    },
+    {
+        "question": "Make reverse control subject to moderator approval.",
+        "function": {
+            "name": "set_reverse_control_policy",
+            "parameters": {
+                "mode": "require_approval"
+            }
+        },
+        "tokens": [
+            "make",
+            "reverse",
+            "control",
+            "subject",
+            "to",
+            "moderator",
+            "approval",
+            "."
+        ]
+    },
+    {
+        "question": "Disable reverse control to prevent unauthorized actions.",
+        "function": {
+            "name": "set_reverse_control_policy",
+            "parameters": {
+                "mode": "deny"
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "reverse",
+            "control",
+            "to",
+            "prevent",
+            "unauthorized",
+            "actions",
+            "."
+        ]
+    },
+    {
+        "question": "Set the maximum number of split screens to 2.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "split_screen",
+                "value": 2
+            }
+        },
+        "tokens": [
+            "set",
+            "the",
+            "maximum",
+            "number",
+            "of",
+            "split",
+            "screens",
+            "to",
+            "2",
+            "."
+        ]
+    },
+    {
+        "question": "Limit split screen to 4 displays simultaneously.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "split_screen",
+                "value": 4
+            }
+        },
+        "tokens": [
+            "limit",
+            "split",
+            "screen",
+            "to",
+            "4",
+            "displays",
+            "simultaneously",
+            "."
+        ]
+    },
+    {
+        "question": "Allow up to 6 devices on the screen at once.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "split_screen",
+                "value": 6
+            }
+        },
+        "tokens": [
+            "allow",
+            "up",
+            "to",
+            "6",
+            "devices",
+            "on",
+            "the",
+            "screen",
+            "at",
+            "once",
+            "."
+        ]
+    },
+    {
+        "question": "Configure split screen maximum to 8.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "split_screen",
+                "value": 8
+            }
+        },
+        "tokens": [
+            "con",
+            "##fi",
+            "##gur",
+            "##e",
+            "split",
+            "screen",
+            "maximum",
+            "to",
+            "8",
+            "."
+        ]
+    },
+    {
+        "question": "Set split screen limit to 3 for better visibility.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "split_screen",
+                "value": 3
+            }
+        },
+        "tokens": [
+            "set",
+            "split",
+            "screen",
+            "limit",
+            "to",
+            "3",
+            "for",
+            "better",
+            "visibility",
+            "."
+        ]
+    },
+    {
+        "question": "Change split screen count to 5.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "split_screen",
+                "value": 5
+            }
+        },
+        "tokens": [
+            "change",
+            "split",
+            "screen",
+            "count",
+            "to",
+            "5",
+            "."
+        ]
+    },
+    {
+        "question": "Adjust screen refresh interval to 15 seconds.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "refresh_interval",
+                "value": 15
+            }
+        },
+        "tokens": [
+            "adjust",
+            "screen",
+            "ref",
+            "##resh",
+            "interval",
+            "to",
+            "15",
+            "seconds",
+            "."
+        ]
+    },
+    {
+        "question": "Set refresh interval to 30 seconds.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "refresh_interval",
+                "value": 30
+            }
+        },
+        "tokens": [
+            "set",
+            "ref",
+            "##resh",
+            "interval",
+            "to",
+            "30",
+            "seconds",
+            "."
+        ]
+    },
+    {
+        "question": "Change refresh rate to 60 seconds.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "refresh_interval",
+                "value": 60
+            }
+        },
+        "tokens": [
+            "change",
+            "ref",
+            "##resh",
+            "rate",
+            "to",
+            "60",
+            "seconds",
+            "."
+        ]
+    },
+    {
+        "question": "Set the display refresh interval to 120 seconds.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "refresh_interval",
+                "value": 120
+            }
+        },
+        "tokens": [
+            "set",
+            "the",
+            "display",
+            "ref",
+            "##resh",
+            "interval",
+            "to",
+            "120",
+            "seconds",
+            "."
+        ]
+    },
+    {
+        "question": "Make the screen refresh every 45 seconds.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "refresh_interval",
+                "value": 45
+            }
+        },
+        "tokens": [
+            "make",
+            "the",
+            "screen",
+            "ref",
+            "##resh",
+            "every",
+            "45",
+            "seconds",
+            "."
+        ]
+    },
+    {
+        "question": "Configure refresh interval to 90 seconds.",
+        "function": {
+            "name": "configure_system_limits",
+            "parameters": {
+                "limit_type": "refresh_interval",
+                "value": 90
+            }
+        },
+        "tokens": [
+            "con",
+            "##fi",
+            "##gur",
+            "##e",
+            "ref",
+            "##resh",
+            "interval",
+            "to",
+            "90",
+            "seconds",
+            "."
+        ]
+    },
+    {
+        "question": "Start casting from device 1.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "start_cast",
+                "targets": "device_1"
+            }
+        },
+        "tokens": [
+            "start",
+            "casting",
+            "from",
+            "device",
+            "1",
+            "."
+        ]
+    },
+    {
+        "question": "Begin casting from the main presenter's laptop.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "start_cast",
+                "targets": "device_2"
+            }
+        },
+        "tokens": [
+            "begin",
+            "casting",
+            "from",
+            "the",
+            "main",
+            "presenter",
+            "'",
+            "s",
+            "laptop",
+            "."
+        ]
+    },
+    {
+        "question": "Initiate casting from all connected devices.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "start_cast",
+                "targets": "all"
+            }
+        },
+        "tokens": [
+            "initiate",
+            "casting",
+            "from",
+            "all",
+            "connected",
+            "devices",
+            "."
+        ]
+    },
+    {
+        "question": "Stop the current casting session from device 1.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "stop_cast",
+                "targets": "device_1"
+            }
+        },
+        "tokens": [
+            "stop",
+            "the",
+            "current",
+            "casting",
+            "session",
+            "from",
+            "device",
+            "1",
+            "."
+        ]
+    },
+    {
+        "question": "End casting from the conference room tablet.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "stop_cast",
+                "targets": "device_2"
+            }
+        },
+        "tokens": [
+            "end",
+            "casting",
+            "from",
+            "the",
+            "conference",
+            "room",
+            "tablet",
+            "."
+        ]
+    },
+    {
+        "question": "Terminate all casting sessions.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "stop_cast",
+                "targets": "all"
+            }
+        },
+        "tokens": [
+            "terminate",
+            "all",
+            "casting",
+            "sessions",
+            "."
+        ]
+    },
+    {
+        "question": "Disconnect device 3 from the display.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disconnect_device",
+                "targets": "device_3"
+            }
+        },
+        "tokens": [
+            "disco",
+            "##nne",
+            "##ct",
+            "device",
+            "3",
+            "from",
+            "the",
+            "display",
+            "."
+        ]
+    },
+    {
+        "question": "Remove the HDMI-connected laptop from the session.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disconnect_device",
+                "targets": "device_4"
+            }
+        },
+        "tokens": [
+            "remove",
+            "the",
+            "hd",
+            "##mi",
+            "-",
+            "connected",
+            "laptop",
+            "from",
+            "the",
+            "session",
+            "."
+        ]
+    },
+    {
+        "question": "Disconnect all devices from the screen.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disconnect_all",
+                "targets": "all"
+            }
+        },
+        "tokens": [
+            "disco",
+            "##nne",
+            "##ct",
+            "all",
+            "devices",
+            "from",
+            "the",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "question": "Cut off all connections immediately.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disconnect_all",
+                "targets": "all"
+            }
+        },
+        "tokens": [
+            "cut",
+            "off",
+            "all",
+            "connections",
+            "immediately",
+            "."
+        ]
+    },
+    {
+        "question": "Enable screen display for device 5.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "enable_screen",
+                "targets": "device_5"
+            }
+        },
+        "tokens": [
+            "enable",
+            "screen",
+            "display",
+            "for",
+            "device",
+            "5",
+            "."
+        ]
+    },
+    {
+        "question": "Turn on the screen for the wireless presenter.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "enable_screen",
+                "targets": "device_6"
+            }
+        },
+        "tokens": [
+            "turn",
+            "on",
+            "the",
+            "screen",
+            "for",
+            "the",
+            "wireless",
+            "presenter",
+            "."
+        ]
+    },
+    {
+        "question": "Enable screen for all connected devices.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "enable_screen",
+                "targets": "all"
+            }
+        },
+        "tokens": [
+            "enable",
+            "screen",
+            "for",
+            "all",
+            "connected",
+            "devices",
+            "."
+        ]
+    },
+    {
+        "question": "Disable screen display for device 7.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disable_screen",
+                "targets": "device_7"
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "screen",
+            "display",
+            "for",
+            "device",
+            "7",
+            "."
+        ]
+    },
+    {
+        "question": "Turn off the screen for the secondary monitor.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disable_screen",
+                "targets": "device_8"
+            }
+        },
+        "tokens": [
+            "turn",
+            "off",
+            "the",
+            "screen",
+            "for",
+            "the",
+            "secondary",
+            "monitor",
+            "."
+        ]
+    },
+    {
+        "question": "Disable all screens temporarily.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disable_screen",
+                "targets": "all"
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "all",
+            "screens",
+            "temporarily",
+            "."
+        ]
+    },
+    {
+        "question": "Enable remote control for device 9.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "enable_remote_control",
+                "targets": "device_9"
+            }
+        },
+        "tokens": [
+            "enable",
+            "remote",
+            "control",
+            "for",
+            "device",
+            "9",
+            "."
+        ]
+    },
+    {
+        "question": "Allow remote control from the tablet.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "enable_remote_control",
+                "targets": "device_10"
+            }
+        },
+        "tokens": [
+            "allow",
+            "remote",
+            "control",
+            "from",
+            "the",
+            "tablet",
+            "."
+        ]
+    },
+    {
+        "question": "Enable remote control for all devices.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "enable_remote_control",
+                "targets": "all"
+            }
+        },
+        "tokens": [
+            "enable",
+            "remote",
+            "control",
+            "for",
+            "all",
+            "devices",
+            "."
+        ]
+    },
+    {
+        "question": "Disable remote control for device 11.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disable_remote_control",
+                "targets": "device_11"
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "remote",
+            "control",
+            "for",
+            "device",
+            "11",
+            "."
+        ]
+    },
+    {
+        "question": "Turn off remote control from the smartphone.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disable_remote_control",
+                "targets": "device_12"
+            }
+        },
+        "tokens": [
+            "turn",
+            "off",
+            "remote",
+            "control",
+            "from",
+            "the",
+            "smartphone",
+            "."
+        ]
+    },
+    {
+        "question": "Disable remote control for all participants.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disable_remote_control",
+                "targets": "all"
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "remote",
+            "control",
+            "for",
+            "all",
+            "participants",
+            "."
+        ]
+    },
+    {
+        "question": "Enable reverse control for device 13.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "enable_reverse_control",
+                "targets": "device_13"
+            }
+        },
+        "tokens": [
+            "enable",
+            "reverse",
+            "control",
+            "for",
+            "device",
+            "13",
+            "."
+        ]
+    },
+    {
+        "question": "Allow reverse control from the audience device.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "enable_reverse_control",
+                "targets": "device_14"
+            }
+        },
+        "tokens": [
+            "allow",
+            "reverse",
+            "control",
+            "from",
+            "the",
+            "audience",
+            "device",
+            "."
+        ]
+    },
+    {
+        "question": "Enable reverse control for all connected.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "enable_reverse_control",
+                "targets": "all"
+            }
+        },
+        "tokens": [
+            "enable",
+            "reverse",
+            "control",
+            "for",
+            "all",
+            "connected",
+            "."
+        ]
+    },
+    {
+        "question": "Disable reverse control for device 15.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disable_reverse_control",
+                "targets": "device_15"
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "reverse",
+            "control",
+            "for",
+            "device",
+            "15",
+            "."
+        ]
+    },
+    {
+        "question": "Turn off reverse control from the remote device.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disable_reverse_control",
+                "targets": "device_16"
+            }
+        },
+        "tokens": [
+            "turn",
+            "off",
+            "reverse",
+            "control",
+            "from",
+            "the",
+            "remote",
+            "device",
+            "."
+        ]
+    },
+    {
+        "question": "Disable reverse control for everyone.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disable_reverse_control",
+                "targets": "all"
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "reverse",
+            "control",
+            "for",
+            "everyone",
+            "."
+        ]
+    },
+    {
+        "question": "Start casting from the CEO's laptop.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "start_cast",
+                "targets": "device_17"
+            }
+        },
+        "tokens": [
+            "start",
+            "casting",
+            "from",
+            "the",
+            "ceo",
+            "'",
+            "s",
+            "laptop",
+            "."
+        ]
+    },
+    {
+        "question": "Stop casting from device 18.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "stop_cast",
+                "targets": "device_18"
+            }
+        },
+        "tokens": [
+            "stop",
+            "casting",
+            "from",
+            "device",
+            "18",
+            "."
+        ]
+    },
+    {
+        "question": "Disconnect device 19 from the session.",
+        "function": {
+            "name": "manage_casting_session",
+            "parameters": {
+                "action": "disconnect_device",
+                "targets": "device_19"
+            }
+        },
+        "tokens": [
+            "disco",
+            "##nne",
+            "##ct",
+            "device",
+            "19",
+            "from",
+            "the",
+            "session",
+            "."
+        ]
+    },
+    {
+        "question": "Change the device name to 'Conference Room A'.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "device_name",
+                "value": "Conference Room A"
+            }
+        },
+        "tokens": [
+            "change",
+            "the",
+            "device",
+            "name",
+            "to",
+            "'",
+            "conference",
+            "room",
+            "a",
+            "'",
+            "."
+        ]
+    },
+    {
+        "question": "Set the display name to 'Main Hall Display'.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "device_name",
+                "value": "Main Hall Display"
+            }
+        },
+        "tokens": [
+            "set",
+            "the",
+            "display",
+            "name",
+            "to",
+            "'",
+            "main",
+            "hall",
+            "display",
+            "'",
+            "."
+        ]
+    },
+    {
+        "question": "Rename this device to 'Portable Screen'.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "device_name",
+                "value": "Portable Screen"
+            }
+        },
+        "tokens": [
+            "ren",
+            "##ame",
+            "this",
+            "device",
+            "to",
+            "'",
+            "portable",
+            "screen",
+            "'",
+            "."
+        ]
+    },
+    {
+        "question": "Call this screen 'Lobby TV'.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "device_name",
+                "value": "Lobby TV"
+            }
+        },
+        "tokens": [
+            "call",
+            "this",
+            "screen",
+            "'",
+            "lobby",
+            "tv",
+            "'",
+            "."
+        ]
+    },
+    {
+        "question": "Set device name to 'Meeting Room 1'.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "device_name",
+                "value": "Meeting Room 1"
+            }
+        },
+        "tokens": [
+            "set",
+            "device",
+            "name",
+            "to",
+            "'",
+            "meeting",
+            "room",
+            "1",
+            "'",
+            "."
+        ]
+    },
+    {
+        "question": "Switch display mode to 1080p.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "display_mode",
+                "value": "1080p"
+            }
+        },
+        "tokens": [
+            "switch",
+            "display",
+            "mode",
+            "to",
+            "108",
+            "##0",
+            "##p",
+            "."
+        ]
+    },
+    {
+        "question": "Set the resolution to 4K.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "display_mode",
+                "value": "4K"
+            }
+        },
+        "tokens": [
+            "set",
+            "the",
+            "resolution",
+            "to",
+            "4",
+            "##k",
+            "."
+        ]
+    },
+    {
+        "question": "Change display mode to 720p for better performance.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "display_mode",
+                "value": "720p"
+            }
+        },
+        "tokens": [
+            "change",
+            "display",
+            "mode",
+            "to",
+            "720",
+            "##p",
+            "for",
+            "better",
+            "performance",
+            "."
+        ]
+    },
+    {
+        "question": "Use 1440p as the display mode.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "display_mode",
+                "value": "1440p"
+            }
+        },
+        "tokens": [
+            "use",
+            "144",
+            "##0",
+            "##p",
+            "as",
+            "the",
+            "display",
+            "mode",
+            "."
+        ]
+    },
+    {
+        "question": "Set the screen to 480p mode.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "display_mode",
+                "value": "480p"
+            }
+        },
+        "tokens": [
+            "set",
+            "the",
+            "screen",
+            "to",
+            "480",
+            "##p",
+            "mode",
+            "."
+        ]
+    },
+    {
+        "question": "Enable weak network optimization for unstable connections.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "weak_network_optimization",
+                "value": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "weak",
+            "network",
+            "optimization",
+            "for",
+            "unstable",
+            "connections",
+            "."
+        ]
+    },
+    {
+        "question": "Turn on network optimization to improve casting in poor WiFi.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "weak_network_optimization",
+                "value": true
+            }
+        },
+        "tokens": [
+            "turn",
+            "on",
+            "network",
+            "optimization",
+            "to",
+            "improve",
+            "casting",
+            "in",
+            "poor",
+            "wi",
+            "##fi",
+            "."
+        ]
+    },
+    {
+        "question": "Activate weak network optimization mode.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "weak_network_optimization",
+                "value": true
+            }
+        },
+        "tokens": [
+            "activate",
+            "weak",
+            "network",
+            "optimization",
+            "mode",
+            "."
+        ]
+    },
+    {
+        "question": "Disable weak network optimization to use standard settings.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "weak_network_optimization",
+                "value": false
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "weak",
+            "network",
+            "optimization",
+            "to",
+            "use",
+            "standard",
+            "settings",
+            "."
+        ]
+    },
+    {
+        "question": "Turn off network optimization for weak signals.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "weak_network_optimization",
+                "value": false
+            }
+        },
+        "tokens": [
+            "turn",
+            "off",
+            "network",
+            "optimization",
+            "for",
+            "weak",
+            "signals",
+            "."
+        ]
+    },
+    {
+        "question": "Enable simple UI mode for easier navigation.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "simple_ui_mode",
+                "value": true
+            }
+        },
+        "tokens": [
+            "enable",
+            "simple",
+            "ui",
+            "mode",
+            "for",
+            "easier",
+            "navigation",
+            "."
+        ]
+    },
+    {
+        "question": "Turn on simple interface mode.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "simple_ui_mode",
+                "value": true
+            }
+        },
+        "tokens": [
+            "turn",
+            "on",
+            "simple",
+            "interface",
+            "mode",
+            "."
+        ]
+    },
+    {
+        "question": "Activate simplified UI for non-technical users.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "simple_ui_mode",
+                "value": true
+            }
+        },
+        "tokens": [
+            "activate",
+            "simplified",
+            "ui",
+            "for",
+            "non",
+            "-",
+            "technical",
+            "users",
+            "."
+        ]
+    },
+    {
+        "question": "Disable simple UI mode to show advanced options.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "simple_ui_mode",
+                "value": false
+            }
+        },
+        "tokens": [
+            "di",
+            "##sable",
+            "simple",
+            "ui",
+            "mode",
+            "to",
+            "show",
+            "advanced",
+            "options",
+            "."
+        ]
+    },
+    {
+        "question": "Turn off simplified interface.",
+        "function": {
+            "name": "configure_device_settings",
+            "parameters": {
+                "setting": "simple_ui_mode",
+                "value": false
+            }
+        },
+        "tokens": [
+            "turn",
+            "off",
+            "simplified",
+            "interface",
+            "."
+        ]
+    },
+    {
+        "question": "Show me the list of available devices.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "list_devices"
+            }
+        },
+        "tokens": [
+            "show",
+            "me",
+            "the",
+            "list",
+            "of",
+            "available",
+            "devices",
+            "."
+        ]
+    },
+    {
+        "question": "Display all devices that can cast.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "list_devices"
+            }
+        },
+        "tokens": [
+            "display",
+            "all",
+            "devices",
+            "that",
+            "can",
+            "cast",
+            "."
+        ]
+    },
+    {
+        "question": "List all connected clients.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "list_clients"
+            }
+        },
+        "tokens": [
+            "list",
+            "all",
+            "connected",
+            "clients",
+            "."
+        ]
+    },
+    {
+        "question": "Show the client list on screen.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "list_clients"
+            }
+        },
+        "tokens": [
+            "show",
+            "the",
+            "client",
+            "list",
+            "on",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "question": "Refresh the casting code now.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "refresh_code"
+            }
+        },
+        "tokens": [
+            "ref",
+            "##resh",
+            "the",
+            "casting",
+            "code",
+            "now",
+            "."
+        ]
+    },
+    {
+        "question": "Generate a new casting code.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "refresh_code"
+            }
+        },
+        "tokens": [
+            "generate",
+            "a",
+            "new",
+            "casting",
+            "code",
+            "."
+        ]
+    },
+    {
+        "question": "Check for system updates.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "check_update"
+            }
+        },
+        "tokens": [
+            "check",
+            "for",
+            "system",
+            "updates",
+            "."
+        ]
+    },
+    {
+        "question": "See if there's a new firmware available.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "check_update"
+            }
+        },
+        "tokens": [
+            "see",
+            "if",
+            "there",
+            "'",
+            "s",
+            "a",
+            "new",
+            "firm",
+            "##ware",
+            "available",
+            "."
+        ]
+    },
+    {
+        "question": "Show the system log for debugging.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "show_log"
+            }
+        },
+        "tokens": [
+            "show",
+            "the",
+            "system",
+            "log",
+            "for",
+            "de",
+            "##bu",
+            "##gging",
+            "."
+        ]
+    },
+    {
+        "question": "Display logs on the screen.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "show_log"
+            }
+        },
+        "tokens": [
+            "display",
+            "logs",
+            "on",
+            "the",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "question": "Hide the log window.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "hide_log"
+            }
+        },
+        "tokens": [
+            "hide",
+            "the",
+            "log",
+            "window",
+            "."
+        ]
+    },
+    {
+        "question": "Close the log display.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "hide_log"
+            }
+        },
+        "tokens": [
+            "close",
+            "the",
+            "log",
+            "display",
+            "."
+        ]
+    },
+    {
+        "question": "Open the management interface.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "show_management"
+            }
+        },
+        "tokens": [
+            "open",
+            "the",
+            "management",
+            "interface",
+            "."
+        ]
+    },
+    {
+        "question": "Show admin panel.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "show_management"
+            }
+        },
+        "tokens": [
+            "show",
+            "ad",
+            "##min",
+            "panel",
+            "."
+        ]
+    },
+    {
+        "question": "Close the management screen.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "hide_management"
+            }
+        },
+        "tokens": [
+            "close",
+            "the",
+            "management",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "question": "Hide admin interface.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "hide_management"
+            }
+        },
+        "tokens": [
+            "hide",
+            "ad",
+            "##min",
+            "interface",
+            "."
+        ]
+    },
+    {
+        "question": "Show the user guide.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "show_guide"
+            }
+        },
+        "tokens": [
+            "show",
+            "the",
+            "user",
+            "guide",
+            "."
+        ]
+    },
+    {
+        "question": "Display help instructions.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "show_guide"
+            }
+        },
+        "tokens": [
+            "display",
+            "help",
+            "instructions",
+            "."
+        ]
+    },
+    {
+        "question": "Hide the guide from the screen.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "hide_guide"
+            }
+        },
+        "tokens": [
+            "hide",
+            "the",
+            "guide",
+            "from",
+            "the",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "question": "Close the help menu.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "hide_guide"
+            }
+        },
+        "tokens": [
+            "close",
+            "the",
+            "help",
+            "menu",
+            "."
+        ]
+    },
+    {
+        "question": "Generate a fresh casting code.",
+        "function": {
+            "name": "handle_ui_action",
+            "parameters": {
+                "action": "refresh_code"
+            }
+        },
+        "tokens": [
+            "generate",
+            "a",
+            "fresh",
+            "casting",
+            "code",
+            "."
+        ]
+    }
+]

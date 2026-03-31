@@ -1,0 +1,224 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "control_media_devices",
+      "description": "Turn on or off physical media hardware such as microphone and camera.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "device": {
+            "type": "string",
+            "enum": ["microphone", "camera"]
+          },
+          "enable": {
+            "type": "boolean",
+            "description": "true to enable, false to disable"
+          }
+        },
+        "required": ["device", "enable"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "configure_display_behavior",
+      "description": "Control display-related behaviors such as automatic fullscreen, floating window mode, and device name visibility on screen.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "feature": {
+            "type": "string",
+            "enum": ["auto_fullscreen", "floating_window", "device_name_visibility"]
+          },
+          "enable": {
+            "type": "boolean",
+            "description": "true to enable, false to disable"
+          }
+        },
+        "required": ["feature", "enable"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "configure_casting_protocol",
+      "description": "Enable or disable casting-related connection protocols such as Miracast, AirPlay, Google Cast, WiFi Direct, or wired projection.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "protocol": {
+            "type": "string",
+            "enum": ["miracast", "airplay", "google_cast", "wifi_direct", "wired_projection"]
+          },
+          "enable": {
+            "type": "boolean",
+            "description": "true to enable, false to disable"
+          }
+        },
+        "required": ["protocol", "enable"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "configure_screen_sharing",
+      "description": "Enable or disable the screen sharing feature or protocol.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "enable": {
+            "type": "boolean",
+            "description": "true to enable, false to disable"
+          }
+        },
+        "required": ["enable"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "set_access_policy",
+      "description": "Define access control rules such as who can join or cast.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "policy_type": {
+            "type": "string",
+            "enum": ["join", "cast"]
+          },
+          "mode": {
+            "type": "string",
+            "enum": ["allow_all", "deny_all", "require_approval", "require_password"]
+          }
+        },
+        "required": ["policy_type", "mode"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "set_reverse_control_policy",
+      "description": "Control permissions for reverse casting or reverse control.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "enum": ["allow", "require_approval", "deny"]
+          }
+        },
+        "required": ["mode"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "configure_system_limits",
+      "description": "Adjust system-level limits such as split-screen count or refresh interval.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "limit_type": {
+            "type": "string",
+            "enum": ["split_screen", "refresh_interval"]
+          },
+          "value": {
+            "type": "integer"
+          }
+        },
+        "required": ["limit_type", "value"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "manage_casting_session",
+      "description": "Control active casting sessions including starting, stopping, disconnecting devices, and toggling control features.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "start_cast",
+              "stop_cast",
+              "disconnect_device",
+              "disconnect_all",
+              "enable_screen",
+              "disable_screen",
+              "enable_remote_control",
+              "disable_remote_control",
+              "enable_reverse_control",
+              "disable_reverse_control"
+            ]
+          },
+          "targets": {
+            "type": "string",
+            "description": "Device IDs or 'all'"
+          }
+        },
+        "required": ["action"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "configure_device_settings",
+      "description": "Modify device-level settings such as device name, display mode, or network optimization.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "setting": {
+            "type": "string",
+            "enum": ["device_name", "display_mode", "weak_network_optimization", "simple_ui_mode"]
+          },
+          "value": {
+            "oneOf": [
+              { "type": "string" },
+              { "type": "integer" },
+              { "type": "boolean" }
+            ]
+          }
+        },
+        "required": ["setting", "value"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "handle_ui_action",
+      "description": "Perform UI-level actions such as retrieving device lists, refreshing codes, checking updates, or showing/hiding dialogs.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "list_devices",
+              "list_clients",
+              "refresh_code",
+              "check_update",
+              "show_log",
+              "hide_log",
+              "show_management",
+              "hide_management",
+              "show_guide",
+              "hide_guide"
+            ]
+          }
+        },
+        "required": ["action"]
+      }
+    }
+  }
+]
