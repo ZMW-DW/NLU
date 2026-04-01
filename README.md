@@ -1,5 +1,9 @@
 # NLU Project Documentation
 
+## Related Projects
+To further enhance the understanding capabilities of this system, you can integrate it with our LLM-focused module:
+- **[Intent_Recognize__LLM](https://github.com/ZMW-DW/Intent_Recognize__LLM)**: A specialized repository for high-precision intent classification using Large Language Models.
+
 ## Project Overview  
 This project aims to develop a Natural Language Understanding (NLU) system that can accurately process and interpret human language.
 
