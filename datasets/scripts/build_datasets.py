@@ -29,7 +29,7 @@ async def process(data: dict, client: AsyncClient):
             return data
         
 async def main():
-    client = AsyncClient(api_key="sk-45306772408d43188af5c9d05b2e6506", base_url="https://api.deepseek.com")
+    client = AsyncClient(api_key="sk-xx", base_url="https://api.deepseek.com")
     
     input_path = "/data/home/daiwei/NLU_Model/datasets/scripts/process_train.json"
     output_path = "/data/home/daiwei/NLU_Model/datasets/scripts/train.json"
