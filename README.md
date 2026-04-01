@@ -1,8 +1,19 @@
 # NLU Project Documentation
 
-## Related Projects
+---
+## Related Projects: SLM Project for Edge Inference
+
 To further enhance the understanding capabilities of this system, you can integrate it with our LLM-focused module:
-- **[Intent_Recognize__LLM](https://github.com/ZMW-DW/Intent_Recognize__LLM)**: A specialized repository for high-precision intent classification using Large Language Models.
+
+- **[Intent_Recognize__LLM](https://github.com/ZMW-DW/Intent_Recognize__LLM)**: A specialized repository for high-precision intent classification using Small Language Models (SLMs).
+
+> **Note:** This repository focuses on the **Model Development Lifecycle** (Finetuning & Evaluation). It serves as the "Algorithm Lab" before migrating to edge engines like C++ or NPU-based inference.
+
+### 🔬 Core Focus: Finetuning & Evaluation
+* **Supervised Finetuning (SFT):** Contains robust scripts for training lightweight models (e.g., Qwen-0.5B, TinyLlama) to excel at specific NLU tasks.
+* **Comprehensive Evaluation:** A set of evaluation metrics and scripts to measure intent accuracy and entity F1 scores, ensuring the model meets production standards before deployment.
+* **Data Preparation:** Specialized tools for formatting and augmenting NLU datasets to improve model generalization in low-resource scenarios.
+---
 
 ## Project Overview  
 This project aims to develop a Natural Language Understanding (NLU) system that can accurately process and interpret human language.
